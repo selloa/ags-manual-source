@@ -1,0 +1,128 @@
+# In-editor help include list (basenames without .md)
+# Used by private filtered preview builds. One name per line; # comments ignored.
+
+# Hubs
+EditorHelpHome
+EditorCheats
+EditorLanguageCheat
+Scripting
+ScriptingGuides
+ScriptAPIIndex
+ScriptAPIOverview
+ObsoleteScriptAPI
+
+# Language (cheat-sheet targets)
+ScriptKeywords
+Pointers
+DynamicArrays
+ImportingFunctionsAndVariables
+TheScriptHeader
+MultipleScripts
+DialogScript
+ExtenderFunctions
+OOProgramming
+StringFormats
+ScriptStructs
+ScriptAttributes
+ScriptManagedStructs
+Preprocessor
+
+# Guides / cheats
+KeyboardShortcuts
+Keycodes
+BlockingScripts
+GameEventsOrder
+AudioInScript
+EventTypes
+Debuggingfeatures
+EditorLogPanel
+
+# API Basics
+Constants
+StandardEnums
+StandardTypes
+Gamevariables
+GlobalArrays
+
+# Events and globals
+Globalfunctions_Event
+RepExec
+ValidateRestoredSave
+CustomDialogOptions
+Globalfunctions_General
+Globalfunctions_Message
+Multimedia
+Globalfunctions_Palette
+Globalfunctions_Room
+Globalfunctions_Screen
+Globalfunctions_Wait
+
+# World
+Camera
+Character
+Hotspot
+InventoryItem
+Object
+Region
+Room
+Screen
+Viewport
+
+# UI
+Dialog
+DialogOptions
+DialogOptionsRenderingInfo
+GUI
+GUIControl
+Button
+InvWindow
+Label
+ListBox
+Slider
+TextBox
+Mouse
+Overlay
+TextWindowGUI
+
+# Media
+AudioChannel
+AudioClip
+DrawingSurface
+DynamicSprite
+Speech
+ViewFrame
+
+# Data and system
+DateTime
+Dictionary
+File
+Game
+GameInfo
+Maths
+Parser
+RestoredSaveInfo
+Set
+String
+System
+Utils
+
+# Editor reference (Tier 2)
+GeneralSettings
+EditorRoom
+EditorCharacter
+EditorGUI
+EditorDialog
+EditorInventoryItems
+EditorView
+EditorSprite
+EditorCursor
+EditorFont
+EditorPreferences
+DefaultSetup
+ScriptModules
+MusicAndSound
+VoiceSpeech
+SystemLimits
+GlobalVariables
+CustomProperties
+ColoursEditor
