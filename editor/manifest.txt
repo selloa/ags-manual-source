@@ -1,61 +1,18 @@
 # In-editor help include list (basenames without .md)
-# Used by private filtered preview builds. One name per line; # comments ignored.
+# Must include every article id from editor/nav.json. # comments ignored.
 
-# Hubs
+# Home
 EditorHelpHome
-EditorCheats
-EditorLanguageCheat
-Scripting
-ScriptingGuides
-ScriptAPIIndex
+
+# Index
 ScriptAPIOverview
+ScriptAPIIndex
 ObsoleteScriptAPI
-
-# Language (cheat-sheet targets)
-ScriptKeywords
-Pointers
-DynamicArrays
-ImportingFunctionsAndVariables
-TheScriptHeader
-MultipleScripts
-DialogScript
-ExtenderFunctions
-OOProgramming
-StringFormats
-ScriptStructs
-ScriptAttributes
-ScriptManagedStructs
-Preprocessor
-
-# Guides / cheats
-KeyboardShortcuts
-Keycodes
-BlockingScripts
-GameEventsOrder
-AudioInScript
-EventTypes
-Debuggingfeatures
-EditorLogPanel
-
-# API Basics
 Constants
 StandardEnums
 StandardTypes
 Gamevariables
 GlobalArrays
-
-# Events and globals
-Globalfunctions_Event
-RepExec
-ValidateRestoredSave
-CustomDialogOptions
-Globalfunctions_General
-Globalfunctions_Message
-Multimedia
-Globalfunctions_Palette
-Globalfunctions_Room
-Globalfunctions_Screen
-Globalfunctions_Wait
 
 # World
 Camera
@@ -85,6 +42,7 @@ Overlay
 TextWindowGUI
 
 # Media
+AudioInScript
 AudioChannel
 AudioClip
 DrawingSurface
@@ -92,7 +50,7 @@ DynamicSprite
 Speech
 ViewFrame
 
-# Data and system
+# Data
 DateTime
 Dictionary
 File
@@ -106,7 +64,45 @@ String
 System
 Utils
 
-# Editor reference (Tier 2)
+# Language
+EditorLanguageCheat
+ScriptKeywords
+Pointers
+DynamicArrays
+ImportingFunctionsAndVariables
+TheScriptHeader
+MultipleScripts
+DialogScript
+ExtenderFunctions
+OOProgramming
+StringFormats
+ScriptStructs
+ScriptAttributes
+ScriptManagedStructs
+Preprocessor
+
+# Guides
+EditorCheats
+KeyboardShortcuts
+Keycodes
+BlockingScripts
+GameEventsOrder
+EventTypes
+Debuggingfeatures
+EditorLogPanel
+Globalfunctions_Event
+RepExec
+ValidateRestoredSave
+CustomDialogOptions
+Globalfunctions_General
+Globalfunctions_Message
+Multimedia
+Globalfunctions_Palette
+Globalfunctions_Room
+Globalfunctions_Screen
+Globalfunctions_Wait
+
+# Editor
 GeneralSettings
 EditorRoom
 EditorCharacter
@@ -117,6 +113,7 @@ EditorView
 EditorSprite
 EditorCursor
 EditorFont
+ColoursEditor
 EditorPreferences
 DefaultSetup
 ScriptModules
@@ -125,4 +122,3 @@ VoiceSpeech
 SystemLimits
 GlobalVariables
 CustomProperties
-ColoursEditor

@@ -1,18 +1,35 @@
 # In-editor help source
 
-This repo holds the full AGS manual. The **in-editor** profile is a filtered subset for a future help pane.
+Filtered manual corpus for a future AGS Editor **bottom help panel** (riders → article list → viewer), inspired by Sonic-Pi’s in-app docs.
+
+Public full-manual TOC remains [`_Sidebar.md`](../_Sidebar.md) / [`index.md`](../index.md).
+
+## Rider model
+
+| Rider | Purpose |
+|-------|---------|
+| Home | Landing page |
+| Index | A–Z, overview, obsolete, constants/types/variables |
+| World | Rooms, characters, hotspots, camera, … |
+| UI | Dialogs, GUIs, controls, mouse, overlays |
+| Media | Audio, drawing, sprites, speech |
+| Data | File, String, Game, System, collections, … |
+| Language | Cheat sheet + language reference |
+| Guides | Shortcuts, blocking, events, global handlers |
+| Editor | Panel/property reference |
+
+## Files
 
 | File | Role |
 |------|------|
-| `editor/manifest.txt` | Basenames included in the editor package |
-| `_EditorSidebar.md` | Sidebar for the filtered HTML build (top-level; excluded from page list like `_Sidebar.md`) |
-| `EditorHelpHome.md` | Pane landing page |
-| `EditorCheats.md` | Shortcuts / guides hub |
-| `EditorLanguageCheat.md` | Language essentials |
+| [`nav.json`](nav.json) | **Plugin contract** — riders, article ids, titles, defaults |
+| [`manifest.txt`](manifest.txt) | Packaging include list (every `nav.json` article id) |
+| [`../_EditorSidebar.md`](../_EditorSidebar.md) | Preview HTML sidebar mirror of `nav.json` |
+| [`../EditorHelpHome.md`](../EditorHelpHome.md) | Default article (`defaultArticle`) |
+| [`../EditorCheats.md`](../EditorCheats.md) | Guides hub |
+| [`../EditorLanguageCheat.md`](../EditorLanguageCheat.md) | Language hub |
 
-Public TOC remains `_Sidebar.md` / `index.md` (full manual).
-
-Non-page files live under `editor/` so the Pandoc build (which only packages top-level tracked files) does not treat them as HTML topics.
+Article `id` values are Markdown basenames (no `.md`). The plugin should load `nav.json` and show HTML pages `{id}.html` in the viewer.
 
 ## Preview
 

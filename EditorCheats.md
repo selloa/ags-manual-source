@@ -24,4 +24,4 @@ Short references for common editor and scripting needs.
 ### API entry points
 
 - [Script API A–Z index](ScriptAPIIndex)
-- [Scripting API](Scripting)
+- [Script API Overview](ScriptAPIOverview)

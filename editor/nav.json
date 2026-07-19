@@ -1,0 +1,165 @@
+{
+  "version": 1,
+  "defaultRider": "home",
+  "defaultArticle": "EditorHelpHome",
+  "riders": [
+    {
+      "id": "home",
+      "title": "Home",
+      "articles": [
+        { "id": "EditorHelpHome", "title": "In-editor help" }
+      ]
+    },
+    {
+      "id": "index",
+      "title": "Index",
+      "articles": [
+        { "id": "ScriptAPIOverview", "title": "Script API Overview" },
+        { "id": "ScriptAPIIndex", "title": "Script API A-Z index" },
+        { "id": "ObsoleteScriptAPI", "title": "Obsolete Script API" },
+        { "id": "Constants", "title": "Standard Constants" },
+        { "id": "StandardEnums", "title": "Standard Enumerated Types" },
+        { "id": "StandardTypes", "title": "Standard Types" },
+        { "id": "Gamevariables", "title": "Game variables" },
+        { "id": "GlobalArrays", "title": "Global arrays" }
+      ]
+    },
+    {
+      "id": "world",
+      "title": "World",
+      "articles": [
+        { "id": "Camera", "title": "Camera" },
+        { "id": "Character", "title": "Character" },
+        { "id": "Hotspot", "title": "Hotspot" },
+        { "id": "InventoryItem", "title": "InventoryItem" },
+        { "id": "Object", "title": "Object" },
+        { "id": "Region", "title": "Region" },
+        { "id": "Room", "title": "Room" },
+        { "id": "Screen", "title": "Screen" },
+        { "id": "Viewport", "title": "Viewport" }
+      ]
+    },
+    {
+      "id": "ui",
+      "title": "UI",
+      "articles": [
+        { "id": "Dialog", "title": "Dialog" },
+        { "id": "DialogOptions", "title": "DialogOptions" },
+        { "id": "DialogOptionsRenderingInfo", "title": "DialogOptionsRenderingInfo" },
+        { "id": "GUI", "title": "GUI" },
+        { "id": "GUIControl", "title": "GUIControl" },
+        { "id": "Button", "title": "Button" },
+        { "id": "InvWindow", "title": "InvWindow" },
+        { "id": "Label", "title": "Label" },
+        { "id": "ListBox", "title": "ListBox" },
+        { "id": "Slider", "title": "Slider" },
+        { "id": "TextBox", "title": "TextBox" },
+        { "id": "Mouse", "title": "Mouse" },
+        { "id": "Overlay", "title": "Overlay" },
+        { "id": "TextWindowGUI", "title": "TextWindowGUI" }
+      ]
+    },
+    {
+      "id": "media",
+      "title": "Media",
+      "articles": [
+        { "id": "AudioInScript", "title": "Audio in script" },
+        { "id": "AudioChannel", "title": "AudioChannel" },
+        { "id": "AudioClip", "title": "AudioClip" },
+        { "id": "DrawingSurface", "title": "DrawingSurface" },
+        { "id": "DynamicSprite", "title": "DynamicSprite" },
+        { "id": "Speech", "title": "Speech" },
+        { "id": "ViewFrame", "title": "ViewFrame" }
+      ]
+    },
+    {
+      "id": "data",
+      "title": "Data",
+      "articles": [
+        { "id": "DateTime", "title": "DateTime" },
+        { "id": "Dictionary", "title": "Dictionary" },
+        { "id": "File", "title": "File" },
+        { "id": "Game", "title": "Game" },
+        { "id": "GameInfo", "title": "GameInfo" },
+        { "id": "Maths", "title": "Maths" },
+        { "id": "Parser", "title": "Parser" },
+        { "id": "RestoredSaveInfo", "title": "RestoredSaveInfo" },
+        { "id": "Set", "title": "Set" },
+        { "id": "String", "title": "String" },
+        { "id": "System", "title": "System" },
+        { "id": "Utils", "title": "Utils" }
+      ]
+    },
+    {
+      "id": "language",
+      "title": "Language",
+      "articles": [
+        { "id": "EditorLanguageCheat", "title": "Language cheat sheet" },
+        { "id": "ScriptKeywords", "title": "Script language keywords" },
+        { "id": "Pointers", "title": "Pointers in AGS" },
+        { "id": "DynamicArrays", "title": "Dynamic Arrays" },
+        { "id": "ImportingFunctionsAndVariables", "title": "Importing functions and variables" },
+        { "id": "TheScriptHeader", "title": "The script header" },
+        { "id": "MultipleScripts", "title": "Multiple Scripts" },
+        { "id": "DialogScript", "title": "Dialog Script" },
+        { "id": "ExtenderFunctions", "title": "Extender functions" },
+        { "id": "OOProgramming", "title": "Object Oriented programming" },
+        { "id": "StringFormats", "title": "String formatting" },
+        { "id": "ScriptStructs", "title": "Structs" },
+        { "id": "ScriptAttributes", "title": "Attributes" },
+        { "id": "ScriptManagedStructs", "title": "Managed Structs" },
+        { "id": "Preprocessor", "title": "Preprocessor" }
+      ]
+    },
+    {
+      "id": "guides",
+      "title": "Guides",
+      "articles": [
+        { "id": "EditorCheats", "title": "Cheats and quick guides" },
+        { "id": "KeyboardShortcuts", "title": "Keyboard Shortcuts" },
+        { "id": "Keycodes", "title": "Key code table" },
+        { "id": "BlockingScripts", "title": "Understanding blocking scripts" },
+        { "id": "GameEventsOrder", "title": "Game events order" },
+        { "id": "EventTypes", "title": "Event Types" },
+        { "id": "Debuggingfeatures", "title": "Debugging features" },
+        { "id": "EditorLogPanel", "title": "Log Panel" },
+        { "id": "Globalfunctions_Event", "title": "Global event handlers" },
+        { "id": "RepExec", "title": "repeatedly_execute" },
+        { "id": "ValidateRestoredSave", "title": "validate_restored_save" },
+        { "id": "CustomDialogOptions", "title": "Custom dialog options rendering" },
+        { "id": "Globalfunctions_General", "title": "Global functions: general" },
+        { "id": "Globalfunctions_Message", "title": "Global functions: message display" },
+        { "id": "Multimedia", "title": "Legacy multimedia" },
+        { "id": "Globalfunctions_Palette", "title": "Global functions: palette" },
+        { "id": "Globalfunctions_Room", "title": "Global functions: room" },
+        { "id": "Globalfunctions_Screen", "title": "Global functions: screen" },
+        { "id": "Globalfunctions_Wait", "title": "Global functions: wait" }
+      ]
+    },
+    {
+      "id": "editor",
+      "title": "Editor",
+      "articles": [
+        { "id": "GeneralSettings", "title": "General Settings" },
+        { "id": "EditorRoom", "title": "Room Editor" },
+        { "id": "EditorCharacter", "title": "Character Editor" },
+        { "id": "EditorGUI", "title": "GUI Editor" },
+        { "id": "EditorDialog", "title": "Dialog Editor" },
+        { "id": "EditorInventoryItems", "title": "Inventory Items Editor" },
+        { "id": "EditorView", "title": "View Editor" },
+        { "id": "EditorSprite", "title": "Sprite Manager" },
+        { "id": "EditorCursor", "title": "Cursor Editor" },
+        { "id": "EditorFont", "title": "Font Preview" },
+        { "id": "ColoursEditor", "title": "Colours Editor" },
+        { "id": "EditorPreferences", "title": "Editor Preferences" },
+        { "id": "DefaultSetup", "title": "Default Setup" },
+        { "id": "ScriptModules", "title": "Script Modules" },
+        { "id": "MusicAndSound", "title": "Music and sound" },
+        { "id": "VoiceSpeech", "title": "Voice speech" },
+        { "id": "SystemLimits", "title": "System limits" },
+        { "id": "GlobalVariables", "title": "Global variables" },
+        { "id": "CustomProperties", "title": "Custom Properties" }
+      ]
+    }
+  ]
+}
