@@ -1,21 +1,33 @@
 ## Other Features
 
-This section describes AGS features that were not covered in the
-tutorial.
+This page collects editor features that were not covered in the
+tutorial. They are grouped below to match the manual navigation.
 
-- [Keyboard Shortcuts](KeyboardShortcuts)
+### Publishing
+
 - [Distributing your game](DistGame)
 - [Building for Android](BuildAndroid)
 - [Backing up your game](BackingUpYourGame)
+
+### Localization
+
 - [Unicode Support](UnicodeSupport)
 - [Translations](Translations)
-- [Global variables](GlobalVariables)
-- [Custom Properties](CustomProperties)
 - [Text Parser](TextParser)
 - [Lip sync](Lipsync)
-- [Debugging features](Debuggingfeatures)
 - [Auto-number speech files](AutonumberSpeechFiles)
+
+### Game data
+
+- [Global variables](GlobalVariables)
+- [Custom Properties](CustomProperties)
 - [Game saves compatibility](GameSavesCompatibility)
 - [Handling incompatible saves](HandlingIncompatibleSaves)
+
+### Tools and debugging
+
+- [Keyboard Shortcuts](KeyboardShortcuts)
+- [Debugging features](Debuggingfeatures)
+- [Log Panel](EditorLogPanel)
 - [Editor Command Line Options](EditorCommandLineOptions)
-- [AnonymousUsageInfo](AnonymousUsageInfo)
+- [Anonymous usage information](AnonymousUsageInfo)

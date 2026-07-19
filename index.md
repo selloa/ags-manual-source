@@ -7,8 +7,8 @@
 - [Introduction](Introduction)
 - [Tutorial](Tutorial)
 - [Frequently Asked Questions](FAQ)
-- [Upgrading to AGS 3.6.2](UpgradeTo362)
 - [Upgrading from a previous version](UpgradingFromPreviousVersion)
+- [Upgrading to AGS 3.6.2](UpgradeTo362)
 
 ## Editor
 
@@ -26,20 +26,47 @@
 - [Inventory Items Editor](EditorInventoryItems)
 - [View Editor](EditorView)
 - [Sprite Manager](EditorSprite)
-- [Log Panel](EditorLogPanel)
 - [Music and sound](MusicAndSound)
 - [Voice speech](VoiceSpeech)
 - [Script Modules](ScriptModules)
 - [System limits](SystemLimits)
 - [Plugins](Plugins)
-- [Other Features](OtherFeatures)
 
-## Game Features
+## Publishing
+
+- [Distributing your game](DistGame)
+- [Building for Android](BuildAndroid)
+- [Backing up your game](BackingUpYourGame)
+
+## Localization
+
+- [Unicode Support](UnicodeSupport)
+- [Translations](Translations)
+- [Text Parser](TextParser)
+- [Lip sync](Lipsync)
+- [Auto-number speech files](AutonumberSpeechFiles)
+
+## Game data
+
+- [Global variables](GlobalVariables)
+- [Custom Properties](CustomProperties)
+- [Game saves compatibility](GameSavesCompatibility)
+- [Handling incompatible saves](HandlingIncompatibleSaves)
+
+## Tools and debugging
+
+- [Keyboard Shortcuts](KeyboardShortcuts)
+- [Debugging features](Debuggingfeatures)
+- [Log Panel](EditorLogPanel)
+- [Editor Command Line Options](EditorCommandLineOptions)
+- [Anonymous usage information](AnonymousUsageInfo)
+
+## Game concepts
 
 - [Game](Feature_Game)
 - [Rooms](Feature_Rooms)
 - [Characters](Feature_Characters)
-- [Inventory Items](Feature_InventoryItems)
+- [Inventory items](Feature_InventoryItems)
 
 ## Engine
 
