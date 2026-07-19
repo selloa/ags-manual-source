@@ -82,6 +82,7 @@
 - [Scripting Language](ScriptingLanguage)
 - [Scripting API](Scripting)
 - [Script API A-Z index](ScriptAPIIndex)
+- [Scripting Guides](ScriptingGuides)
 - [Obsolete Script API](ObsoleteScriptAPI)
 
 ## Legal Notice

@@ -134,7 +134,7 @@
   - [Dialog Script](DialogScript)
   - [Preprocessor](Preprocessor)
 - [Scripting API](Scripting)
-  - Basics
+  - [Basics](Scripting#basics)
     - [Script API Overview](ScriptAPIOverview)
     - [Script API A-Z index](ScriptAPIIndex)
     - [Standard Constants](Constants)
@@ -142,12 +142,12 @@
     - [Standard Types](StandardTypes)
     - [Game variables](Gamevariables)
     - [Global arrays](GlobalArrays)
-  - Events
+  - [Events](Scripting#events)
     - [Global event handlers](Globalfunctions_Event)
     - [repeatedly_execute](RepExec)
     - [validate_restored_save](ValidateRestoredSave)
     - [Custom dialog options rendering](CustomDialogOptions)
-  - Global functions
+  - [Global functions](Scripting#global-functions)
     - [General](Globalfunctions_General)
     - [Message display](Globalfunctions_Message)
     - [Legacy multimedia](Multimedia)
@@ -155,7 +155,7 @@
     - [Room actions](Globalfunctions_Room)
     - [Screen effects](Globalfunctions_Screen)
     - [Wait](Globalfunctions_Wait)
-  - World
+  - [World](Scripting#world)
     - [Camera](Camera)
     - [Character](Character)
     - [Hotspot](Hotspot)
@@ -165,7 +165,7 @@
     - [Room](Room)
     - [Screen](Screen)
     - [Viewport](Viewport)
-  - UI
+  - [UI](Scripting#ui)
     - [Dialog](Dialog)
     - [DialogOptions](DialogOptions)
     - [DialogOptionsRenderingInfo](DialogOptionsRenderingInfo)
@@ -180,7 +180,7 @@
     - [Mouse](Mouse)
     - [Overlay](Overlay)
     - [TextWindowGUI](TextWindowGUI)
-  - Media
+  - [Media](Scripting#media)
     - [Audio in script](AudioInScript)
     - [AudioChannel](AudioChannel)
     - [AudioClip](AudioClip)
@@ -188,7 +188,7 @@
     - [DynamicSprite](DynamicSprite)
     - [Speech](Speech)
     - [ViewFrame](ViewFrame)
-  - Data and system
+  - [Data and system](Scripting#data-and-system)
     - [DateTime](DateTime)
     - [Dictionary](Dictionary)
     - [File](File)
@@ -201,7 +201,7 @@
     - [String](String)
     - [System](System)
     - [Utils](Utils)
-- Guides
+- [Guides](ScriptingGuides)
   - [Audio in script](AudioInScript)
   - [Understanding blocking scripts](BlockingScripts)
   - [Game events order](GameEventsOrder)
