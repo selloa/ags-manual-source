@@ -107,6 +107,20 @@
 - [Global functions: screen](Globalfunctions_Screen)
 - [Global functions: wait](Globalfunctions_Wait)
 
+#### Examples
+
+- [Examples](EditorExamples)
+- [Display a message](ExampleDisplay)
+- [Walk to a point](ExampleWalk)
+- [Character speech](ExampleSay)
+- [Change room](ExampleChangeRoom)
+- [Add / remove inventory](ExampleInventory)
+- [Start a dialog](ExampleDialog)
+- [Play a sound](ExampleSound)
+- [Show / hide a GUI](ExampleGUI)
+- [Wait (blocking)](ExampleWait)
+- [Interact with an object](ExampleObject)
+
 #### Editor
 
 - [General Settings](GeneralSettings)

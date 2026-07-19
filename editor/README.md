@@ -16,6 +16,7 @@ Public full-manual TOC remains [`_Sidebar.md`](../_Sidebar.md) / [`index.md`](..
 | Data | File, String, Game, System, collections, … |
 | Language | Cheat sheet + language reference |
 | Guides | Shortcuts, blocking, events, global handlers |
+| Examples | Short pasteable recipes (Display, Walk, Dialog, …) |
 | Editor | Panel/property reference |
 
 ## Files
@@ -27,6 +28,7 @@ Public full-manual TOC remains [`_Sidebar.md`](../_Sidebar.md) / [`index.md`](..
 | [`../_EditorSidebar.md`](../_EditorSidebar.md) | Preview HTML sidebar mirror of `nav.json` |
 | [`../EditorHelpHome.md`](../EditorHelpHome.md) | Default article (`defaultArticle`) |
 | [`../EditorCheats.md`](../EditorCheats.md) | Guides hub |
+| [`../EditorExamples.md`](../EditorExamples.md) | Examples hub |
 | [`../EditorLanguageCheat.md`](../EditorLanguageCheat.md) | Language hub |
 
 Article `id` values are Markdown basenames (no `.md`). The plugin should load `nav.json` and show HTML pages `{id}.html` in the viewer.

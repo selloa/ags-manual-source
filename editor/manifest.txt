@@ -102,6 +102,19 @@ Globalfunctions_Room
 Globalfunctions_Screen
 Globalfunctions_Wait
 
+# Examples
+EditorExamples
+ExampleDisplay
+ExampleWalk
+ExampleSay
+ExampleChangeRoom
+ExampleInventory
+ExampleDialog
+ExampleSound
+ExampleGUI
+ExampleWait
+ExampleObject
+
 # Editor
 GeneralSettings
 EditorRoom

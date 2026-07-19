@@ -1,12 +1,13 @@
 ## In-editor help
 
-Quick lookup while you work in the AGS Editor. Use **search** or open a **rider** (Home, Index, World, UI, Media, Data, Language, Guides, Editor) and pick an article from the list.
+Quick lookup while you work in the AGS Editor. Use **search** or open a **rider** (Home, Index, World, UI, Media, Data, Language, Guides, Examples, Editor) and pick an article from the list.
 
 ### Jump to
 
 - [Script API A–Z index](ScriptAPIIndex) — find a type or topic by name (**Index**)
 - [Script API Overview](ScriptAPIOverview) — map of the API (**Index**)
 - [Character](Character) · [Room](Room) · [GUI](GUI) — common world/UI types (**World** / **UI**)
+- [Examples](EditorExamples) — pasteable recipes (**Examples**)
 - [Language cheat sheet](EditorLanguageCheat) — syntax essentials (**Language**)
 - [Cheats and quick guides](EditorCheats) — shortcuts, blocking, events (**Guides**)
 - [General Settings](GeneralSettings) · [Room Editor](EditorRoom) — panel reference (**Editor**)
@@ -14,4 +15,4 @@ Quick lookup while you work in the AGS Editor. Use **search** or open a **rider*
 
 ### Not in this pane
 
-Tutorials, upgrading guides, templates, publishing, and engine setup live in the **full manual** (Help CHM / online docs). This pane is for reference while scripting and configuring a game.
+Long tutorials, upgrading guides, templates, publishing, and engine setup live in the **full manual** (Help CHM / online docs). This pane is for reference and short recipes while scripting and configuring a game.

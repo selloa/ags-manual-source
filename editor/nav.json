@@ -137,6 +137,23 @@
       ]
     },
     {
+      "id": "examples",
+      "title": "Examples",
+      "articles": [
+        { "id": "EditorExamples", "title": "Examples" },
+        { "id": "ExampleDisplay", "title": "Display a message" },
+        { "id": "ExampleWalk", "title": "Walk to a point" },
+        { "id": "ExampleSay", "title": "Character speech" },
+        { "id": "ExampleChangeRoom", "title": "Change room" },
+        { "id": "ExampleInventory", "title": "Add / remove inventory" },
+        { "id": "ExampleDialog", "title": "Start a dialog" },
+        { "id": "ExampleSound", "title": "Play a sound" },
+        { "id": "ExampleGUI", "title": "Show / hide a GUI" },
+        { "id": "ExampleWait", "title": "Wait (blocking)" },
+        { "id": "ExampleObject", "title": "Interact with an object" }
+      ]
+    },
+    {
       "id": "editor",
       "title": "Editor",
       "articles": [
