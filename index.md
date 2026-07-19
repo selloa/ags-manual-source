@@ -81,10 +81,8 @@
 - [Scripting Tutorial](ScriptingTutorial)
 - [Scripting Language](ScriptingLanguage)
 - [Scripting API](Scripting)
+- [Script API A-Z index](ScriptAPIIndex)
 - [Obsolete Script API](ObsoleteScriptAPI)
-- [Event Types](EventTypes)
-- [Key code table](Keycodes)
-- [Audio in script](AudioInScript)
 
 ## Legal Notice
 

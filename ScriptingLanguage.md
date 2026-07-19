@@ -3,18 +3,18 @@
 This section provides an extensive reference for AGS script capabilities and common practices.
 
 - [Script language keywords](ScriptKeywords)
-- [Preprocessor](Preprocessor)
+- [Multiple Scripts](MultipleScripts)
 - [The script header](TheScriptHeader)
 - [Importing functions and variables in other scripts](ImportingFunctionsAndVariables)
 - [Structs](ScriptStructs)
-- [Managed Structs](ScriptManagedStructs)
 - [Attributes](ScriptAttributes)
 - [Pointers in AGS](Pointers)
+- [Managed Structs](ScriptManagedStructs)
 - [Dynamic Arrays](DynamicArrays)
 - [Extender functions](ExtenderFunctions)
-- [String formatting](StringFormats)
-- [Multiple Scripts](MultipleScripts)
-- [Dialog Script](DialogScript)
 - [Object Oriented programming](OOProgramming)
-- [Understanding blocking scripts](BlockingScripts)
-- [Game events order](GameEventsOrder)
+- [String formatting](StringFormats)
+- [Dialog Script](DialogScript)
+- [Preprocessor](Preprocessor)
+
+For runtime behavior (blocking calls, event order, and related topics), see the Scripting **Guides** in the sidebar.

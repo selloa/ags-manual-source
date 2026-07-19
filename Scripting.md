@@ -1,29 +1,43 @@
 ## Scripting API
 
+Browse by topic below, or use the [Script API A-Z index](ScriptAPIIndex).
+
 ### Basics
 
+Constants, types, and built-in game state used throughout scripts.
+
 - [Script API Overview](ScriptAPIOverview)
+- [Script API A-Z index](ScriptAPIIndex)
 - [Standard Constants](Constants)
 - [Standard Enumerated Types](StandardEnums)
 - [Standard Types](StandardTypes)
 - [Game variables](Gamevariables)
 - [Global arrays](GlobalArrays)
 
-### Events and globals
+### Events
+
+Built-in event handlers and related scripting hooks.
 
 - [Global event handlers](Globalfunctions_Event)
 - [repeatedly_execute / repeatedly_execute_always](RepExec)
 - [validate_restored_save](ValidateRestoredSave)
 - [Custom dialog options rendering](CustomDialogOptions)
+
+### Global functions
+
+Standalone global commands (not members of a struct).
+
 - [Global functions: general](Globalfunctions_General)
 - [Global functions: message display](Globalfunctions_Message)
-- [Global functions: multimedia actions](Multimedia)
+- [Legacy multimedia](Multimedia)
 - [Global functions: palette operations](Globalfunctions_Palette)
 - [Global functions: room actions](Globalfunctions_Room)
 - [Global functions: screen effects](Globalfunctions_Screen)
 - [Global functions: wait](Globalfunctions_Wait)
 
 ### World
+
+Rooms, characters, interactable elements, and the camera.
 
 - [Camera functions and properties](Camera)
 - [Character functions and properties](Character)
@@ -32,9 +46,12 @@
 - [Object functions and properties](Object)
 - [Region functions and properties](Region)
 - [Room functions and properties](Room)
+- [Screen functions and properties](Screen)
 - [Viewport functions and properties](Viewport)
 
 ### UI
+
+Dialogs, GUIs, controls, mouse, and on-screen overlays.
 
 - [Dialog functions and properties](Dialog)
 - [DialogOptions functions and properties](DialogOptions)
@@ -47,11 +64,15 @@
 - [GUI List Box functions and properties](ListBox)
 - [GUI Slider properties](Slider)
 - [GUI Text Box functions and properties](TextBox)
+- [Mouse functions and properties](Mouse)
 - [Overlay functions and properties](Overlay)
 - [TextWindowGUI functions and properties](TextWindowGUI)
 
 ### Media
 
+Audio, drawing, sprites, speech, and animation frames.
+
+- [Audio in script](AudioInScript)
 - [AudioChannel functions and properties](AudioChannel)
 - [AudioClip functions and properties](AudioClip)
 - [DrawingSurface functions and properties](DrawingSurface)
@@ -61,16 +82,16 @@
 
 ### Data and system
 
+Files, collections, strings, maths, and engine/system access.
+
 - [DateTime functions and properties](DateTime)
 - [Dictionary functions and properties](Dictionary)
 - [File functions and properties](File)
 - [Game functions and properties](Game)
 - [GameInfo properties](GameInfo)
 - [Maths functions and properties](Maths)
-- [Mouse functions and properties](Mouse)
 - [Parser functions](Parser)
 - [RestoredSaveInfo properties](RestoredSaveInfo)
-- [Screen functions and properties](Screen)
 - [Set functions and properties](Set)
 - [String functions](String)
 - [System functions and properties](System)
